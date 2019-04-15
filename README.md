@@ -25,7 +25,7 @@ Follow the instructions for each of the following code samples in [Compliler Exp
    
 5. [2d array](https://godbolt.org/z/Kr-Sn8)
    1. Port this code to VisUAL.
-   2. How are nested `for` loops handled in assembly? Are they *"nested"* in assembly?
+   2. How are nested `for` loops handled in assembly? Are they *"nested"* in assembly? Nested for loops aren't "nested" in terms that it is under a loop. In assembly, it will iterate through it after it goes through the first loop. 
    
 6. [2d array with mul](https://godbolt.org/z/cHwSTR)
    1. Port this code to VisUAL. (It's the same as the previous but with multiplicatoin).
