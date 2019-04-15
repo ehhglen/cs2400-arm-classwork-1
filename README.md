@@ -7,16 +7,16 @@ CS2400 ARM assembly programming classwork problems.
 Follow the instructions for each of the following code samples in [Compliler Explorer](https://godbolt.org).
 
 1. [printf](https://godbolt.org/z/y2YKew)
-   1. What is the library function that is called?
-   2. Research the implementation (source code) of this function.
-   3. Find out if the program directly executes the output operation or it makes a *system call* to the operating system.
+   1. What is the library function that is called? The library function that is called is <stdio.h>
+   2. Research the implementation (source code) of this function. This function implements different syntax in order for the program to do certain things such as file input and output. 
+   3. Find out if the program directly executes the output operation or it makes a *system call* to the operating system. The program        does not make a system call; it executes the operation
    
 2. [malloc](https://godbolt.org/z/kAZX7x)
-   1. How are the arguments passed to `malloc` and `free`?
-   2. Research the implementation (source code) of `malloc` and `free`.
+   1. How are the arguments passed to `malloc` and `free`? The arguments are being passed through registers by moving and storing. 
+   2. Research the implementation (source code) of `malloc` and `free`. 'malloc' allocates memory and returns a pointer to it. 'free' deallocates the memory that was previosly allocated by malloc.
    
 3. [malloc array](https://godbolt.org/z/bBl0zx)
-   1. How does this case differ from the previous one?
+   1. How does this case differ from the previous one? In this case, an array was declared of size 100.
    2. [**hard**] Write your own tiny `malloc` by declaring a large `FILL` area and writing a `malloc` and a `free` subroutine.
    
 4. [arrays](https://godbolt.org/z/lcH006)
