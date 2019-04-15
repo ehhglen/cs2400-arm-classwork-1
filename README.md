@@ -21,7 +21,7 @@ Follow the instructions for each of the following code samples in [Compliler Exp
    
 4. [arrays](https://godbolt.org/z/lcH006)
    1. Port this code to VisUAL.
-   2. Observe/show that this code writes the local array in reverse order to the `static` global array.
+   2. Observe/show that this code writes the local array in reverse order to the `static` global array. In the second for loop, it's starting at 100 and subtracting 1 each iteration and also subtracting whatever the loop counter is 'i'.
    
 5. [2d array](https://godbolt.org/z/Kr-Sn8)
    1. Port this code to VisUAL.
